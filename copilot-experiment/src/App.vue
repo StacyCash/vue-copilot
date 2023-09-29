@@ -1,6 +1,7 @@
 <template>
-  <div class="bg-blue-500">
-    Hello, world!
+  <div class="container mx-auto my-8">
+    <img alt="Vue logo" src="./assets/logo.png" class="mx-auto mb-8">
+    <HelloWorld />
   </div>
 </template>
 
@@ -16,6 +17,14 @@ export default {
 </script>
 
 <style>
+.container {
+  max-width: 800px;
+}
+
+img {
+  max-width: 100%;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
